@@ -4,7 +4,7 @@
 
 ### Features
 
-- Real time char engine for comments
+- Real time chat engine for comments
 - Blogs
 - Drag and drop interface
 
