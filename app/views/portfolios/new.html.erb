@@ -2,7 +2,7 @@
 <%= form_for(@portfolio_items) do |form| %>
 <div class="field">
     <%= form.label :title %>
-    <%= form.text_field :title %>
+    <%= form.text_field :title, placeholder: "Title" %>
 </div>
 <div class="field">
     <%= form.label :subtitle %>
@@ -12,7 +12,14 @@
     <%= form.label :body %>
     <%= form.text_area :body %>
 </div>
-
+<div class="field">
+    <%= form.label :main_image %>
+    <%= form.text_field :main_image, placeholder: "Portfolio Image" %>
+</div>
+<div class="field">
+    <%= form.label :thumb_image %>
+    <%= form.text_field :thumb_image, placeholder: "Thumb Image" %>
+</div>
 <div class="actions">
     <%= form.submit %>
 </div>
